@@ -1,0 +1,41 @@
+
+.view-by-category {
+    display: flex;
+}
+
+.category-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 7px;
+    width: 150px;
+    height: 30px;
+    border-radius: 1px;
+    opacity: 1;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+
+.category-button:hover {
+    text-decoration: none;
+    opacity: 0.8;
+    -webkit-transition: .25s;
+    transition: .25s;
+}
+
+.category-button p {
+    margin: 0px;
+    text-align: center;
+}
+
+#color {
+    background-color: #49BFDD;
+}
+
+#texture {
+    background-color: #F9EC8E;
+}
+
+#nails {
+    background-color: #BABADE;
+}
